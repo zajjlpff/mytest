@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.analysis</groupId>
-    <artifactId>eureka</artifactId>
+    <artifactId>eureka-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka</name>
     <description>Eureka</description>
