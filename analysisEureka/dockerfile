@@ -1,0 +1,8 @@
+FROM java:8-jdk
+MAINTAINER zengxianlian 
+
+COPY eureka-test-0.0.1-SNAPSHOT.jar /eureka-test-0.0.1-SNAPSHOT.jar
+
+EXPOSE 8791
+
+ENTRYPOINT ["java", "-jar", "/eureka-test-0.0.1-SNAPSHOT.jar"]
